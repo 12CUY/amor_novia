@@ -8,6 +8,13 @@
 </head>
 <body>
 <div id="world"/>
+<br><br><br>
+<center>
+    <a href="card.php">
+    <button >Comienza a jugar Amor</button>
+</a>
+</center>
+
 <script src="comp/js/gato/gato.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/three.js/r70/three.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.16.1/TweenMax.min.js"></script>
