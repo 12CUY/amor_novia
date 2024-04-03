@@ -8,6 +8,9 @@
     <?php
     include 'comp/nav.php';
     ?>
-
+    <br>
+    <?php
+    include 'comp/j_sopa_letra.php';
+    ?>
 </body>
 </html>
