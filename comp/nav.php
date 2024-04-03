@@ -28,13 +28,13 @@
                         <a class="nav-link" href="index.php"><i class="fas fa-home"></i> Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fas fa-heart"></i> Acerca de</a>
+                        <a class="nav-link" href="acerca.php"><i class="fas fa-heart"></i> Acerca de</a>
                     </li>
                 </ul>
             </div>
 
             <div class="boton">
-                <a href="#" class="btn"><i class="fas fa-heart"></i> Ingresar</a>
+                <a href="login.php" class="btn"><i class="fas fa-heart"></i> Ingresar</a>
             </div>
             
             <button class="navbar-toggler" type="button" id="navbarToggleBtn">
