@@ -134,7 +134,7 @@ Ball = function () {
     });
 
     var stringMat = new THREE.LineBasicMaterial({
-        color: 0x630d15,
+        color: 0x630d25,
         linewidth: 3
     });
 

@@ -1,0 +1,5 @@
+.audio-hidden {
+    position: fixed;
+    bottom: -100px; /* Para que esté debajo de todo */
+    left: -9999px; /* Para ocultarlo fuera del área visible */
+}

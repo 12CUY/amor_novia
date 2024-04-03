@@ -8,22 +8,3 @@
   overflow:hidden;
 }
 
-#credits{
-  position:absolute;
-  width:100%;
-  margin: auto;
-  bottom:0;
-  margin-bottom:20px;
-  font-family:'Open Sans', sans-serif;
-  color:#02a9a6;
-  font-size:0.7em;
-  text-transform: uppercase;
-  text-align : center;
-}
-#credits a {
-  color:#02a9a6;
-}
-
-#credits a:hover {
-  color:#630d15;
-}

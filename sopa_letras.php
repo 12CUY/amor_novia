@@ -8,8 +8,6 @@
     <?php
     include 'comp/nav.php';
     ?>
-    <?php
-    include 'comp/juegos.php';
-    ?>
+
 </body>
 </html>
