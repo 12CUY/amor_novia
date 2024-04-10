@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap");
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:800,400);
+
 *,
 *::before,
 *::after {
@@ -8,6 +10,7 @@
 }
 
 body {
+  font-family: 'Great Vibes', cursive; 
   background-color: #caa4a4;
   text-align: center;
   padding: 4em 1em;
@@ -23,13 +26,16 @@ body {
   justify-content: center;
   margin-top: 50px;
 }
-
+h1{
+  text-transform: uppercase;
+}
 figure {
   width: 300px;
   perspective: 900px;
+  object-fit: cover;
 }
 figure:nth-child(1) {
-  --imageUrl: url("https://assets.codepen.io/652/the-lucky-neko-CM7a-XBD4AU-unsplash.jpg");
+  --imageUrl: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwo_t98QOL5UVjnYf6EJ4R-dHyO0XBEQ97s_RyTuUGkQ&s");
 }
 figure:nth-child(2) {
   --imageUrl: url("https://assets.codepen.io/652/karsten-winegeart-NE0XGVKTmcA-unsplash.jpg");
@@ -44,7 +50,7 @@ figure:nth-child(5) {
   --imageUrl: url("https://assets.codepen.io/652/sergey-semin-Y0WXj3xqJz0-unsplash.jpg");
 }
 figure:nth-child(6) {
-  --imageUrl: url("https://assets.codepen.io/652/jordan-bigelow-X5VoG4MA5aI-unsplash.jpg");
+  --imageUrl: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeCHwAo6T8SD521k2odwjMJd3s-qQSS2irERww73sKhA&s");
 }
 figure img {
   width: 100%;
@@ -496,10 +502,109 @@ figure img {
   padding-top: 2em;
   padding-inline: 100px 25px;
   z-index: -1;
-  font-size: 32px;
+  font-size: 25px;
   width: 100%;
   height: 100%;
 }
 .imageRoll > figcaption strong {
   display: block;
+}
+
+/*button miau*/
+
+.ghst-btn {
+  position: relative;
+  display: inline-block;
+  top: 35%;
+  width: auto;
+  height: auto;
+  max-width: 20rem;
+  min-height: 1rem;
+  padding: 1rem 2rem 0.8rem 2rem;
+  border: 2px solid rgba(89, 89, 89, 0.502);
+  background-color: rgba(255, 255, 255, 0.567);
+  background-image:
+    radial-gradient(#333 0%, #333 70%, transparent 71%, transparent 100%),
+    radial-gradient(#333 0%, #333 70%, transparent 71%, transparent 100%),
+    radial-gradient(#333 0%, #333 70%, transparent 71%, transparent 100%);
+  background-size: 0 0, 0 0, 0 0;
+  background-repeat: no-repeat;
+  background-position: 30% 50%, 70% 50%, 50% 80%;
+  text-decoration: none;
+  color: rgba(42, 42, 42, 0.3);
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  border-radius: 10px;
+  transform: rotate(0);
+  transition:
+    border 2.5s 1s,
+    color 2s 0.6s,
+    max-width 0.05s 0.6s, 
+    min-height 0.05s 0.6s, 
+    background-color 0.4s,
+    background-size 0s,
+    transform 0.4s,
+    border-radius 0.4s;
+}
+/*carita*/
+.ghst-btn:hover {
+  max-width: 10rem;
+  min-height: 10rem;
+  color: rgba(255,255,255,0);
+  border: 2px solid rgba(255,255,255,0);
+  border-radius: 50%;
+  background-color: rgba(214, 214, 214, 0.57);
+  background-size: 1.5rem 1.5rem, 1.5rem 1.5rem, 1.5rem 1rem;
+  transform: rotate(400grad);
+  transition:
+    border 0.1s,
+    color 0.15s,
+    max-width 0.25s, 
+    min-height 0.25s, 
+    background-color 0.25s,
+    background-size 0.15s 0.45s,
+    transform 0.4s,
+    border-radius 0.25s 0.3s;
+}
+.ghst-btn:before,
+.ghst-btn:after {
+  position: absolute;
+  transition: all 0.25s;
+}
+.ghst-btn:before {
+  content:'click miau';
+  margin: 50px;
+  top: 50%;
+  left: 50%;
+  color: rgba(194, 194, 194, 0.967);
+  font-weight: 800;
+  letter-spacing: 0;
+  transform: scale(0) translateX(0) translateY(0);
+  transition:
+    color 0s,
+    transform 0s;
+}
+.ghst-btn:after {
+  content:'';
+  top: 70%;
+  left: 20%;
+  width: 60%;
+  height: 7%;
+  background: none;
+  border-radius: 50%;
+  box-shadow: 0 5rem 15px rgba(80, 80, 80, 0.622);
+  opacity: 0;
+  transition: opacity 0.05s;
+}
+.ghst-btn:hover:before {
+  color: rgba(230, 230, 230, 0.464);
+  transform: scale(1.3) translateX(55%) translateY(-110%);
+  transition:
+    color 0.05s 0.8s,
+    transform 0.1s 0.8s;
+}
+.ghst-btn:hover:after {
+  opacity: 1;
+  transition: opacity 0.2s 0.5s;
 }

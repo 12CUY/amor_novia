@@ -7,45 +7,48 @@
     <link rel="stylesheet" href="comp/style/acerca/acerca.css">
 </head>
 <body>
-<h1>Cute Pets Gallery</h1>
+<h1>para la michuna mas linda</h1>
 Esta pagina esta establecida para la persona que mas quiero en este planeta. 
 <div class="gallery">
   <figure class="imageRoll">
     <i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i>
       </i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i>
-    <figcaption>Kitten: <strong>Ollie</strong> (12 Weeks)</figcaption>
+    <figcaption>Primer mes: <strong>Nuestra primera llamada 🤳</strong> (M)</figcaption>
   </figure>
 
   <figure class="imageRoll">
     <i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i>
       </i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i>
-    <figcaption>Puppy: <strong>Barney</strong> (9 Weeks)</figcaption>
+    <figcaption>Tercer mes: <strong>Nuestro primer beso 💋 </strong> (I)</figcaption>
   </figure>
 
   <figure class="imageRoll">
     <i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i>
       </i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i>
-    <figcaption>Cat: <strong>Walter</strong> (5 Years) </figcaption>
+    <figcaption>Quinto mes: <strong>Nuestro primer susto 😘 </strong> (CH) </figcaption>
   </figure>
 
   <figure class="imageRoll">
     <i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i>
       </i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i>
-    <figcaption>Dog: <strong>Miss Sunshine</strong> (2 Years) </figcaption>
+    <figcaption>Un año: <strong>Miss Sunshine</strong> (U) </figcaption>
   </figure>
 
   <figure class="imageRoll">
     <i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i>
       </i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i>
-    <figcaption>Kitten: <strong>Reese</strong> (8 Weeks)</figcaption>
+    <figcaption>Un año y 7 meses: <strong>Reese</strong> (N)</figcaption>
   </figure>
 
   <figure class="imageRoll">
     <i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i>
       </i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i>
-    <figcaption>Puppy: <strong>Bruce</strong> (10 Weeks)</figcaption>
+    <figcaption>Segundo año: <strong>Cada dia extrañandote 😍</strong> (A)</figcaption>
   </figure>
-</div>
-
+</div><br>
+<hr><br>
+<a href="index.php" class="ghst-btn">Atras</a>
+<br>
+<br><br><br>
 </body>
 </html>
