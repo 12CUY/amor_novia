@@ -14,9 +14,9 @@
   <div class="container">
   TE
   <div class="stack" style="--stacks: 3;">
-    <span style="--index: 0;">AMO</span>
-    <span style="--index: 1;">AMO</span>
-    <span style="--index: 2;">AMO</span>
+    <span style="--index: 0;">AMO JOSS</span>
+    <span style="--index: 1;">AMO JOSS</span>
+    <span style="--index: 2;">AMO JOSS</span>
   </div>
 </div>
 </center>

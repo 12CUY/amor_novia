@@ -44,7 +44,7 @@ figure:nth-child(3) {
   --imageUrl: url("https://assets.codepen.io/652/kabo-NjWZ07sPEJE-unsplash.jpg");
 }
 figure:nth-child(4) {
-  --imageUrl: url("https://assets.codepen.io/652/giacomo-lucarini-7M0SG3ZKdlE-unsplash.jpg");
+  --imageUrl: url("https://img.freepik.com/vector-gratis/lindo-gato-jugando-perro-dibujos-animados-vector-icono-ilustracion-animal-naturaleza-icono-concepto-aislado-plano_138676-8574.jpg?size=338&ext=jpg&ga=GA1.1.1488620777.1712707200&semt=ais");
 }
 figure:nth-child(5) {
   --imageUrl: url("https://assets.codepen.io/652/sergey-semin-Y0WXj3xqJz0-unsplash.jpg");
@@ -607,4 +607,10 @@ figure img {
 .ghst-btn:hover:after {
   opacity: 1;
   transition: opacity 0.2s 0.5s;
+}
+/*audio*/
+.audio-hidden {
+  position: fixed;
+  bottom: -100px; /* Para que esté debajo de todo */
+  left: -9999px; /* Para ocultarlo fuera del área visible */
 }

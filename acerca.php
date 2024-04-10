@@ -31,13 +31,13 @@ Esta pagina esta establecida para la persona que mas quiero en este planeta.
   <figure class="imageRoll">
     <i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i>
       </i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i>
-    <figcaption>Un año: <strong>Miss Sunshine</strong> (U) </figcaption>
+    <figcaption>Un año: <strong>Michuna patosa Mmmm. . .😺</strong> (U) </figcaption>
   </figure>
 
   <figure class="imageRoll">
     <i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i>
       </i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i></i>
-    <figcaption>Un año y 7 meses: <strong>Reese</strong> (N)</figcaption>
+    <figcaption>Un año y 7 meses: <strong>Te amo 🥰</strong> (N)</figcaption>
   </figure>
 
   <figure class="imageRoll">
@@ -50,5 +50,18 @@ Esta pagina esta establecida para la persona que mas quiero en este planeta.
 <a href="index.php" class="ghst-btn">Atras</a>
 <br>
 <br><br><br>
+<audio autoplay loop class="audio-hidden">
+        <source src="comp/img/sound/van.m4a" type="audio/mp3">
+    </audio>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const navbarToggleBtn = document.getElementById('navbarToggleBtn');
+            const navbarNav = document.getElementById('navbarNav');
+
+            navbarToggleBtn.addEventListener('click', function() {
+                navbarNav.classList.toggle('show');
+            });
+        });
+    </script>
 </body>
 </html>
