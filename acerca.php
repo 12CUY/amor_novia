@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>acerca </title>
     <link rel="stylesheet" href="comp/style/acerca/acerca.css">
 </head>
 <body>
 <h1>Cute Pets Gallery</h1>
-Esta pagina esta establecida para la persona que mas quiero en este mundo 
+Esta pagina esta establecida para la persona que mas quiero en este planeta. 
 <div class="gallery">
   <figure class="imageRoll">
     <i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i><i>
