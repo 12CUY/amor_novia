@@ -7,11 +7,11 @@
 <body>
     <?php
     include 'comp/nav.php';
+    include 'comp/j_sopa_letra.php';
+
     ?>
     <br>
-    <?php
-    include 'comp/j_sopa_letra.php';
-    ?>
+    
         <audio autoplay loop class="audio-hidden">
         <source src="comp/img/sound/musica_miau.m4a" type="audio/mp3">
     </audio>
