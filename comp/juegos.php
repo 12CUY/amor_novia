@@ -14,43 +14,47 @@
 	<br><br><br><br>
 	<fieldset class="checkbox-group">
 		<legend class="checkbox-group-legend">LOS JUEGOS GATUNOS</legend>
-		<!-- crucigrama -->
+		<!-- sopa de letras-->
 
 		<div class="checkbox">
 			<label class="checkbox-wrapper">
 				<input type="checkbox" class="checkbox-input" />
 				<span class="checkbox-tile">
-					<span class="checkbox-icon">
-						<i class="fas fa-crosshairs fa-3x"></i> <!-- Reemplaza este icono con el icono deseado -->
+				<span class="checkbox-icon">
+				<i class="fas fa-vector-square fa-3x" ></i>
 					</span>
-					<span class="checkbox-label">Crucigrama</span><br>
-					<a href="sopa_letras.php"><button>ingresar</button></a>
+					<span class="checkbox-label">Sopa de letras</span>
+					<a href="sopa_letras.php" class="boton_1" ><button>ingresar</button></a>
 				</span>
+
 			</label>
 		</div>
 		<!-- juego de memoria -->
 		<div class="checkbox">
 			<label class="checkbox-wrapper">
-				<input type="checkbox" class="checkbox-input" checked />
+				<input type="checkbox" class="checkbox-input" />
 				<span class="checkbox-tile">
-					<span class="checkbox-icon">
-						<i class="fa-brands fa-stack-overflow fa-3x"></i>
+				<span class="checkbox-icon">
+				<i class="fa-brands fa-stack-overflow fa-3x"></i>
 					</span>
-					<span class="checkbox-label">Juego de Memoria</span><button>ingresar</button>
+					<span class="checkbox-label">Juego de memoria</span>
+					<a href="juego_memoria.php" class="boton_1" ><button>ingresar</button></a>
 				</span>
 
 			</label>
 		</div>
-		<!--sopa letras -->
+		<!--crucigrama -->
 
 		<div class="checkbox">
 			<label class="checkbox-wrapper">
 				<input type="checkbox" class="checkbox-input" />
 				<span class="checkbox-tile">
-					<span class="checkbox-icon">
-						<i class="fas fa-vector-square fa-3x" ></i>
+				<span class="checkbox-icon">
+				<i class="fa-brands fa-stack-overflow fa-3x"></i>
 					</span>
-					<span class="checkbox-label">Sopa Letras</span><button>ingresar</button>
+					<span class="checkbox-label">crucigrama</span>
+					
+					<a href="crucigrama.php" class="boton_1" ><button>ingresar</button></a>
 				</span>
 
 			</label>
@@ -64,10 +68,12 @@
 					<span class="checkbox-icon">
 						<i class="fas fa-user-ninja fa-3x"></i>
 					</span>
-					<span class="checkbox-label">Ahorcado</span><button>ingresar</button>
+					<span class="checkbox-label">Ahorcado</span>
+					<a href="#"class="boton_1" ><button>ingresar</button></a>
 				</span>
 			</label>
 		</div>
 	</fieldset>
 </body>
+
 </html>

@@ -1,4 +1,7 @@
-
+.checkbox-wrapper{
+	padding: 10px;
+	margin: 10px;
+}
 
 .checkbox-group {
 	display: flex;
@@ -7,7 +10,7 @@
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 600px;
+	max-width: 400px;
 	user-select: none;
 	& > * {
 		margin: 0.5rem 0.5rem;
@@ -106,6 +109,7 @@
 .checkbox-icon {
 	transition: 0.375s ease;
 	color: #494949;
+	margin: 10px;
 	svg {
 		width: 3rem;
 		height: 3rem;
@@ -116,4 +120,10 @@
 	color: #707070;
 	transition: 0.375s ease;
 	text-align: center;
+	padding: 5px;
+}
+
+.boton_1{
+	margin: 10px;
+	border-radius: 10px;
 }

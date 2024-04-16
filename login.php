@@ -11,7 +11,7 @@
 <body>
     <div class="container">
         <div class="card">
-                <h1 class="card_title">Ingresa</h1>
+            <h1 class="card_title">Ingresa</h1>
             <br>
             <form class="card_form">
                 <div class="input">
@@ -22,7 +22,8 @@
                     <input type="password" class="input_field" required />
                     <label class="input_label">Contraseña</label>
                 </div>
-                <button class="card_button" >Ingresa</button>
+                <button class="card_button">Ingresa</button>
+                <button class="card_button"  ><a href="index.php" style="color: white;">Atras</a></button>
             </form>
         </div>
 

@@ -8,6 +8,9 @@
     <?php
     include 'comp/nav.php';
     ?>
+    <?php
+    include 'comp/j_memoria.php';
+    ?>
     <audio autoplay loop class="audio-hidden">
         <source src="comp/img/sound/musica_miau.m4a" type="audio/mp3">
     </audio>
